@@ -6,9 +6,8 @@
 
 ### Links and Resources
 * [submission PR](https://github.com/heyerthb/async-lab-03/pull/1)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [travis](https://travis-ci.com/heyerthb/async-lab-03/builds/133649698)
+* [heroku](https://dashboard.heroku.com/apps/heyert-async/deploy/github)
 
 #### Documentation
 * [api docs](http://xyz.com) (API servers)
