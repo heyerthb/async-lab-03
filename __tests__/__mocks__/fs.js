@@ -1,25 +1,23 @@
-// 'use strict';
-
-// module.exports = exports = {};
-
-// exports.readFile = (file, cb) => {
-//   if( file.match(/bad/i) ) {
-//     cb('Invalid File');
-//   }
-//   else {
-//     cb(undefined, new Buffer('File Contents'));
-//   }
-// };
-
 'use strict';
 
-module.exports = exports = {};
+// const file = '../../data/person.json'
+let fileContents = 'Test string';
 
-exports.readFile = ('./data/person.json', cb) => {
-  if( '.data/person.json'.match(/bad/i) ) {
-    cb('Invalid File');
+exports.readFile = (file, cb)=>{
+  
+  if (file.match(/bad/i)){
+    cb('invalid file');
+  } else {
+    cb(undefined, Buffer.from(fileContents));
   }
-  else {
-    cb(undefined, Buffer.from('File Contents'));
+};
+
+exports.writeFile = (file, buffer, cb) => {
+  if (file.match(/bad/i)){
+    cb('invalid file');
+  } else {
+    fileContents = buffer;
+    cb(undefined, fileContents);
+
   }
 };
