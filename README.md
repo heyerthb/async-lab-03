@@ -5,10 +5,9 @@
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [submission PR](https://github.com/heyerthb/async-lab-03/pull/1)
+* [travis](https://travis-ci.com/heyerthb/async-lab-03/builds/133649698)
+* [heroku](https://dashboard.heroku.com/apps/heyert-async/deploy/github)
 
 #### Documentation
 * [api docs](http://xyz.com) (API servers)
